@@ -24,7 +24,7 @@ function App() {
       </p>
       </div>
 
-      <div className="btn-group">
+      <div className="slide_container">
       <Slideshow/>
       </div>
 

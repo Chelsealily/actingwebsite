@@ -2,7 +2,6 @@ import bath from "../assets/welcomepic/bath.png"
 import hand2 from "../assets/welcomepic/hand2.png"
 import garage from "../assets/welcomepic/garage.png"
 import mickey from "../assets/welcomepic/mickey17.png"
-import sad from "../assets/welcomepic/sad.png"
 import inb from "../assets/welcomepic/inb.png"
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/css';
@@ -33,9 +32,6 @@ const Slideshow = () => {
         </SplideSlide>
         <SplideSlide>
           <img src={mickey} alt="Chelsea Li in thriller / horror Mickey 17 with director Bong Joon Ho and Robert Pattinson"/>
-        </SplideSlide>
-        <SplideSlide>
-          <img src={sad} alt="Chelsea Li in thriller / emotional short film scene"/>
         </SplideSlide>
       </Splide>
     
