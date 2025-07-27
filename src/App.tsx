@@ -2,6 +2,7 @@ import './App.scss'
 import ScrollToTop from 'react-scroll-to-top'
 import logoInsta from './assets/instagram.png'
 import logoSalary from "./assets/coin.png"
+import Slideshow from "./Components/slideshow"
 
 function App() {
   return (
@@ -13,17 +14,20 @@ function App() {
         London Based Actress
         <br></br>
         <br></br>
-        <div className="welcome-icons">
+        <span className="welcome-icons">
       <a href="https://www.instagram.com/chelsea.lily/" target="_blank">
         <img className="welcome__logo" width="30px" src={logoInsta} alt="instagram logo"/></a>
 
         <a href="https://www.paypal.com/paypalme/chelsealily" target="_blank">
         <img className="welcome__logo" width="30px" src={logoSalary} alt="paypal logo"/></a>
-        </div>
+        </span>
       </p>
-      
       </div>
-     
+
+      <div className="btn-group">
+      <Slideshow/>
+      </div>
+
       <div className="btn-group">
       <a href="https://uk.pinterest.com/cbean0261/chelsea-li/?invite_code=f50a35a67c2c4d779cce7e3290f29c10&sender=1021332159153324013"><button>Portfolio</button></a>
       <a href="https://www.imdb.com/name/nm5891887/"><button>Imdb</button></a>
