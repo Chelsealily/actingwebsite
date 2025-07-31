@@ -1,0 +1,15 @@
+.headshot_container {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 20%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  

@@ -3,6 +3,7 @@ import ScrollToTop from 'react-scroll-to-top'
 import logoInsta from './assets/instagram.png'
 import logoSalary from "./assets/coin.png"
 import Slideshow from "./Components/slideshow"
+import Headshots from './Components/headshots'
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
       <Slideshow/>
       </div>
 
+      <Headshots/>
+
       <div className="btn-group">
       <a href="https://uk.pinterest.com/cbean0261/chelsea-li/?invite_code=f50a35a67c2c4d779cce7e3290f29c10&sender=1021332159153324013"><button>Portfolio</button></a>
       <a href="https://www.imdb.com/name/nm5891887/"><button>Imdb</button></a>
@@ -35,6 +38,7 @@ function App() {
       <a href="https://www.sandrareynolds.co.uk/model/chelsea-li"><button>Sandra Reynolds</button></a>
       <a href="https://www.roctalentagency.com/commercial-women/chelsea"><button>Roc Talent</button></a>
       </div>
+
 
   
       <ScrollToTop smooth />
