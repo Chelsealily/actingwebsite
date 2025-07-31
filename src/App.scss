@@ -46,3 +46,11 @@ a:link {
 .btn-group button:hover {
   background-color: #e39898;
 }
+
+/* Laptop/Desktop: ≥ 1024px */
+@media (min-width: 1024px) {
+  .btn-group {
+    display: inline-block;
+    align-items: center;
+  }
+}
