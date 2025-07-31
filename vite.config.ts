@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // Replace 'your-username' and 'your-repo-name'
 export default defineConfig({
-  base: '/actingwebsite/',
+  base: '/',
   plugins: [react()],
 })
