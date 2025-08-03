@@ -1,0 +1,33 @@
+.about-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+    position: relative;
+  }
+  
+  .about-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* Show only 3 lines */
+    transition: all 0.3s ease;
+  }
+  
+  .about-text.expanded {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+  }
+  
+  .read-more-btn {
+    background: grey;
+    border: 1px solid grey;
+    border-radius: 20%;
+    color: white;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
