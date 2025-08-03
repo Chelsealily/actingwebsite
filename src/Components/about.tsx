@@ -14,7 +14,7 @@ const About = () => {
         When she's not on set, you’ll find her building her own creative projects or quietly plotting world domination over a matcha latte with her little chihuahua.
     
       </div>
-
+<br></br>
       <button className="read-more-btn" onClick={toggleReadMore}>
         {expanded ? "Show less" : "Read more"}
       </button>
