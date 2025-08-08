@@ -1,0 +1,76 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  max-width: 1200px;
+}
+
+/* Typography and spacing for welcome text */
+.welcome {
+  color: #000000;
+  font-size: 2rem;
+}
+
+/* Flex container for icons */
+.welcome-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+/* Logo spacing */
+.welcome__logo {
+  margin-left: 20px;
+}
+
+/* Slides */
+.slide_container {
+  display: inline-block;
+  justify-self: center;
+}
+
+/* --- Responsive Media Queries --- */
+/* Tablets */
+@media (max-width: 1024px) {
+  #root {
+    padding: 1.5rem;
+  }
+  .welcome {
+    font-size: 1.8rem;
+  }
+  .btn-group {
+    max-width: 700px;
+  }
+  .btn-group button {
+    font-size: 1.2rem;
+    padding: 1.2rem 2.5rem;
+  }
+}
+/* Mobile Devices */
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+  .welcome {
+    font-size: 1.5rem;
+  }
+  .btn-group {
+    width: 100%;
+  }
+  .btn-group button {
+    font-size: 1rem;
+    width: 90%;
+  }
+}
+/* Very small mobile */
+@media (max-width: 480px) {
+  .welcome {
+    font-size: 1.25rem;
+  }
+  .btn-group button {
+    padding: 0.75rem 1.5rem;
+  }
+}/*# sourceMappingURL=App.css.map */
