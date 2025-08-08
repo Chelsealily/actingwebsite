@@ -6,6 +6,7 @@ import white from "../assets/headshots/whitetop.jpg"
 
 const Headshots = () => {
     return (
+
         <div className="headshot_container">
             <div className="column">
                 <div className="content">
