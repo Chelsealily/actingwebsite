@@ -10,6 +10,8 @@ import Headshots from './Components/headshots'
 import logo from './assets/chelsea li title logo.png'
 import About from './Components/about'
 import Footer from './Components/footer'
+import Youtube from './youtube'
+import Contact from './Components/contact'
 
 function App() {
   return (
@@ -23,10 +25,11 @@ function App() {
       <div className="slide_container">
       <Slideshow/>
       </div>
-
     <About/>
 
       <Headshots/>
+
+      <Youtube/>
 
       <span className="welcome-icons">
 
@@ -46,6 +49,8 @@ function App() {
         <img className="welcome__logo" width="60px" src={logoSalary} alt="paypal logo"/></a>
 
         </span>
+
+      <Contact/>
 
       <Footer/>
   

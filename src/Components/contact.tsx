@@ -12,10 +12,10 @@ const Contact = () => {
     if (form.current) {
       emailjs
         .sendForm(
-          "YOUR_SERVICE_ID",
-          "YOUR_TEMPLATE_ID",
+          "service_crpy4f8",
+          "template_mh2pufh",
           form.current,
-          "YOUR_PUBLIC_KEY"
+          "bOPP92LzDaisCr0Rl"
         )
         .then(
           () => {
