@@ -9,6 +9,7 @@ import Slideshow from "./Components/slideshow"
 import Headshots from './Components/headshots'
 import logo from './assets/chelsea li title logo.png'
 import About from './Components/about'
+import Footer from './Components/footer'
 
 function App() {
   return (
@@ -46,7 +47,7 @@ function App() {
 
         </span>
 
-
+      <Footer/>
   
       <ScrollToTop smooth />
     </>
