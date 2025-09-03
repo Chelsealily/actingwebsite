@@ -12,6 +12,7 @@ import About from './Components/about'
 import Footer from './Components/footer'
 import Youtube from './youtube'
 import Contact from './Components/contact'
+import InstagramFeed from './Components/insta'
 
 function App() {
   return (
@@ -51,6 +52,15 @@ function App() {
         </span>
 
       <Contact/>
+
+      <InstagramFeed
+        postUrls={[
+          'https://www.instagram.com/p/DNGRKqztDo5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+          'https://www.instagram.com/p/C2UzzyVIk8c/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+          'https://www.instagram.com/p/DHd-HggtdK7/?utm_source=ig_web_copy_link',
+          'https://www.instagram.com/p/C1PXD1ANHuW/?utm_source=ig_web_copy_link',
+        ]}
+      />
 
       <Footer/>
   
