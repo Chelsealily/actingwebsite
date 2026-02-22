@@ -2,9 +2,8 @@ import "./youtube.scss";
 
 const Youtube = () => {
   const videos = [
-    { src: "https://www.youtube.com/embed/3vvMYJvvRBg?si=HP2Ne3cDrTC25ENU", title: "Showreel 1" },
-    { src: "https://www.youtube.com/embed/jGTMujWIoWc?si=oRbo1OJbbBE1aNwB", title: "Showreel 2" },
-    { src: "https://www.youtube.com/embed/EYoqhfPNzVo?si=HSaWthGL_-Lw41gl", title: "Showreel 3" },
+    { src: "https://youtube.com/embed/u0KgxC2Ma9w?si=PiG1cQQnmfUzVty0", title: "Showreel 1" },
+
     // Add more videos if needed
   ];
 

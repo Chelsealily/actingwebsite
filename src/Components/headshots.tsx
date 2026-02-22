@@ -1,8 +1,8 @@
 import "./headshots.scss"
-import blacktrench from "../assets/headshots/blacktrench.jpg"
-import red from "../assets/headshots/redjumper.jpg"
-import business from "../assets/headshots/business.png"
-import white from "../assets/headshots/whitetop.jpg"
+import red3 from "../assets/headshots/red3.jpg"
+import red2 from "../assets/headshots/red2.jpg"
+import whitetop2 from "../assets/headshots/whitetop2.jpg"
+import blacktop2 from "../assets/headshots/blacktop2.jpg"
 
 const Headshots = () => {
     return (
@@ -10,22 +10,22 @@ const Headshots = () => {
         <div className="headshot_container">
             <div className="column">
                 <div className="content">
-                    <img src={blacktrench} alt="Black trench coat headshot" height="200rem" loading="lazy" />
+                    <img src={red3} alt="Black trench coat headshot" height="200rem" loading="lazy" />
                 </div>
             </div>
             <div className="column">
                 <div className="content">
-                    <img src={business} alt="Blue Blazer Business headshot" height="200rem" loading="lazy" />
+                    <img src={whitetop2} alt="Blue Blazer Business headshot" height="200rem" loading="lazy" />
                 </div>
             </div>
             <div className="column">
                 <div className="content">
-                    <img src={white} alt="White top headshot" height="200rem" loading="lazy"/>
+                    <img src={blacktop2} alt="White top headshot" height="200rem" loading="lazy"/>
                 </div>
             </div>
             <div className="column">
                 <div className="content">
-                    <img src={red} alt="Red jumper headshot" height="200rem" loading="lazy" />
+                    <img src={red2} alt="Red jumper headshot" height="200rem" loading="lazy" />
                 </div>
             </div>
         </div>
