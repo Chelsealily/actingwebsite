@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
-      <p> For all enquiries relating to booking me for Acting/Commerical work or for hiring me to code your website. Please free to connect! </p>
+      <p> For all booking/collaboration enquiries, please free to connect! 😊 </p>
       <form ref={form} onSubmit={sendEmail} className="contact-form">
         <input type="text" name="user_name" placeholder="Your Name" required />
         <input type="email" name="user_email" placeholder="Your Email" required />

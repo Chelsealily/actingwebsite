@@ -10,6 +10,7 @@ import betrayal from "../assets/welcomepic/betrayal.png"
 import phonegirl from "../assets/welcomepic/phonegirl.png"
 import mad from "../assets/welcomepic/mad.png"
 import makeup from "../assets/welcomepic/makeup.png"
+import gang from "../assets/welcomepic/gangster.png"
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/css';
 import './slideshow.scss'
@@ -26,10 +27,13 @@ const Slideshow = () => {
         aria-label="slideshow"
       >
         <SplideSlide>
-          <img src={makeup} alt="Chelsea Li in comedy film - Bermondsey Tales"/>
+          <img loading="eager" src={gang} alt="Chelsea Li in comedy film - Bermondsey Tales"/>
         </SplideSlide>
         <SplideSlide>
-          <img src={betrayal} alt="Chelsea Li in Betrayal Short scene Astrid from Crazy Rich Asians"/>
+          <img loading="lazy" src={makeup} alt="Chelsea Li in comedy film - Bermondsey Tales"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img loading="lazy" src={betrayal} alt="Chelsea Li in Betrayal Short scene Astrid from Crazy Rich Asians"/>
         </SplideSlide>
         <SplideSlide>
           <img src={phonegirl} alt="Chelsea Li in self tape for a tv pilot"/>

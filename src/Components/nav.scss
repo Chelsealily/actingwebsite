@@ -1,0 +1,51 @@
+
+.nav {
+  width: 100vw;
+  margin: 0px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(239, 239, 239);
+  font-family: black;
+
+  &__item {
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0px;
+    color: black;
+    font-weight: 700;
+
+    &--contact{
+      color: #9e8a8a;
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
+}
+
+
+@media screen and (max-width: 765px) {
+  .nav{
+    width:98vw;
+    text-align: center;
+
+    &__item{
+      font-size: 0.7rem;
+
+      &--contact{
+        font-size: 0.7rem;
+      }
+
+    }
+
+  }
+
+  
+}
+  
+
+
+  
