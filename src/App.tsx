@@ -1,11 +1,12 @@
 
 import './App.scss'
 import title from './assets/newlogo.jpg'
-import About from './Components/about'
+import Actingpage from './Pages/actingpage'
 import Contactpage from './Pages/contactpage'
 import Nav from './Components/nav'
 import Homepage from './Pages/homepage'
 import { HashRouter as Router, Link, Route, Routes } from "react-router-dom";
+import ModelPage from './Pages/modelpage'
 
 function App() {
     return (
@@ -24,7 +25,8 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/acting" element={<Actingpage />} />
+          <Route path="/modelling" element={<ModelPage/>} />
           <Route path="/contact" element={<Contactpage />} />
         </Routes>
 
