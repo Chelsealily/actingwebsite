@@ -11,8 +11,6 @@ function App() {
     return (
     <>
         <Router>
-          <br></br>
-          <br></br>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/acting" element={<Actingpage />} />
