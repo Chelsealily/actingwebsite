@@ -1,33 +1,57 @@
 .about-container {
-    max-width: 800px;
-    margin: 2rem auto;
+    max-width: 700px;
     text-align: center;
     position: relative;
     color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
   }
   
   .about-text {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3; /* Show only 3 lines */
-    transition: all 0.3s ease;
+    font-size: 1.2rem;
   }
-  
-  .about-text.expanded {
-    -webkit-line-clamp: unset;
-    overflow: visible;
+
+  /* Desktop */
+@media (min-width: 1025px) {
+
+}
+
+/* Tablet  */
+@media (max-width: 1023px) {
+  .about-text {
+    font-size: 0.9rem;
   }
-  
-  .read-more-btn {
-    background: rgb(209, 209, 209);
-    border: 1px solid rgb(209, 209, 209);
-    border-radius: 25px;
-    color: white;
-    cursor: pointer;
-    font-size: 1rem;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
+
+  .about-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
   }
-  
+}
+
+//* L Mobile  */
+@media (min-width:425px) and (max-width: 767px) {
+  .about-text {
+    font-size: 0.55rem;
+  }
+
+  .about-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+  }
+}
+
+/* Mobile  */
+@media (max-width: 424px) {
+  .about-text {
+    font-size: 0.45rem;
+  }
+
+  .about-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+  }
+}

@@ -1,0 +1,155 @@
+.acting-page {
+  position: relative;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+.home {
+  position: absolute; 
+  top: 0%;
+  left: 0%;
+}
+
+.acting-background {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.acting-content {
+  position: absolute;
+  inset: 0;
+}
+
+/* --------------------
+   CREDITS
+-------------------- */
+
+.credits-section {
+  position: absolute;
+  top: 22%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* --------------------
+   ABOUT
+-------------------- */
+
+.about-section {
+  position: absolute;
+  top: 38%;
+  left: 5%;
+  display: flex;
+}
+
+.about-section img{
+  height: 350px;
+  border-radius: 20%;
+}
+
+/* --------------------
+   GALLERY
+-------------------- */
+
+.gallery-section {
+  position: absolute;
+  top: 54%;
+  left: 5%;
+  text-align: center;
+}
+
+/* --------------------
+   SHOWREEL
+-------------------- */
+
+.showreel-section {
+  position: absolute;
+  top: 68%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* --------------------
+   CONTACT
+-------------------- */
+
+.contact-section {
+  position: absolute;
+  top: 96%;
+  left: 25%;
+  
+}
+
+.button {
+  background-color: #FCE08B;
+  color: #63918B;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+/* Desktop */
+@media (min-width: 1025px) {
+
+}
+
+/* Tablet  */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .credits-section {
+  font-size: 1rem;
+}
+.about-section img{
+  height: 280px;
+}
+}
+
+//* L Mobile  */
+@media (min-width:425px) and (max-width: 767px) {
+.credits-section {
+  font-size: 0.65rem;
+}
+
+.about-section img{
+  height: 150px;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 10px 12px;
+}
+
+.contact-section {
+  position: absolute;
+  top: 95%;
+  left: 20%;
+}
+}
+
+/* Mobile  S&M */
+@media (max-width: 424px) {
+.credits-section {
+  font-size: 0.5rem;
+}
+
+.about-section img{
+  height: 115px;
+}
+.button {
+  font-size: 0.5rem;
+  padding: 8px 10px;
+}
+.contact-section {
+  position: absolute;
+  top: 95%;
+  left: 15%;
+}
+}

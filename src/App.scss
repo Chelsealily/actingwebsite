@@ -1,24 +1,25 @@
+@use "./styles/variables.scss" as *;
+
 #root {
   margin: 0 auto;
-  /*padding: 2rem;*/
   text-align: center;
   width: 100vw;
   box-sizing: border-box;
-  background-color: #E8E6E0;
+  background-color: #FDF6EF;
 }
 
 html, body {
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-/* Typography and spacing for welcome text */
+/* Typography and spacing for welcome text 
 .welcome {
   color: #000000;
   font-size: 2rem;
   word-wrap: break-word;
 }
 
-/* Flex container for icons */
+/* Flex container for icons 
 .welcome-icons {
   display: flex;
   justify-content: center;
@@ -28,12 +29,12 @@ html, body {
   margin-bottom: 2rem;
 }
 
-/* Logo spacing */
+/* Logo spacing 
 .welcome__logo {
   margin-left: 20px;
 }
 
-/* Slides */
+/* Slides 
 .slide_container {
   display: inline-block;
   justify-self: center;
@@ -58,18 +59,18 @@ html, body {
   transform: scale(1.1);
 }
 
-/* Tablet adjustments */
+/* Tablet adjustments 
 @media (max-width: 1024px) {
   .welcome-icons img {
     max-width: 70px;
   }
 }
 
-/* Mobile — force 3 columns per row */
+/* Mobile — force 3 columns per row 
 @media (max-width: 768px) {
   .welcome-icons {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 per row */
+    grid-template-columns: repeat(3, 1fr); /* 3 per row 
     justify-items: center;
     gap: 1rem;
   }
@@ -79,7 +80,7 @@ html, body {
   }
 }
 
-/* Very small mobile (iPhone SE / Mini) */
+/* Very small mobile (iPhone SE / Mini) 
 @media (max-width: 430px) {
   .welcome-icons img {
     max-width: 50px;
@@ -87,9 +88,9 @@ html, body {
 }
 
 
-/* --- Responsive Media Queries --- */
+/* --- Responsive Media Queries --- 
 
-/* Tablets */
+/* Tablets 
 @media (max-width: 1024px) {
   #root {
     padding: 1.5rem;
@@ -100,7 +101,7 @@ html, body {
   }
 }
 
-/* Mobile Devices */
+/* Mobile Devices 
 @media (max-width: 768px) {
   #root {
     padding: 1rem;
@@ -111,16 +112,17 @@ html, body {
   }
 }
 
-/* iPhone Pro Max & similar */
+/* iPhone Pro Max & similar 
 @media (max-width: 430px) {
   .welcome {
     font-size: 1.3rem;
   }
 }
 
-/* Very small mobile */
+/* Very small mobile 
 @media (max-width: 375px) {
   .welcome {
     font-size: 1.2rem;
   }
 }
+*/

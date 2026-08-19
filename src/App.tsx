@@ -1,13 +1,11 @@
 
 import './App.scss'
-import title from './assets/newlogo.jpg'
 import Actingpage from './Pages/actingpage'
-import Contactpage from './Pages/contactpage'
-import Nav from './Components/nav'
 import Homepage from './Pages/homepage'
-import { HashRouter as Router, Link, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import ModelPage from './Pages/modelpage'
-import Seemorepage from './Pages/seemorepage'
+import Ugcpage from './Pages/ugcpage'
+import Techpage from './Pages/techpage';
 
 function App() {
     return (
@@ -15,21 +13,13 @@ function App() {
         <Router>
           <br></br>
           <br></br>
-        <section className="logo">
-          <Link to="/">
-      <div className="header">
-      <img className="title__logo" width="250px" src={title} alt="Chelsea Li Official Actress website logo"/>
-        <br></br>
-        </div>
-          </Link>
-        </section>
-        <Nav />
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/acting" element={<Actingpage />} />
           <Route path="/modelling" element={<ModelPage/>} />
-          <Route path="/seemore" element={<Seemorepage/>} />
-          <Route path="/contact" element={<Contactpage />} />
+          <Route path="/ugc" element={<Ugcpage/>} />
+          <Route path="/tech" element={<Techpage/>} />
+          <Route path="/contact" element={<Ugcpage/>} />
         </Routes>
 
       </Router>

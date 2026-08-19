@@ -1,0 +1,52 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+
+ &__logo {
+    height: 150px;
+  }
+}
+
+.paypal {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+/* Tablet adjustments */
+@media (max-width: 1024px) {
+  .welcome img {
+    max-width: 70%;
+  }
+   .welcome__logo {
+    height: 80px;
+  }
+}
+
+/* Mobile  */
+@media (max-width: 768px) {
+  .welcome img {
+    max-width: 60%;
+
+  }
+
+ .welcome__logo {
+    height: 60px;
+  }
+
+  .paypal {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+}
+
+
+/* Very small mobile (iPhone SE / Mini) */
+@media (max-width: 430px) {
+  .welcome img {
+    max-width: 50%;
+    
+     .welcome__logo {
+    height: 50px;
+  }
+}
+}

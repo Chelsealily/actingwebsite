@@ -1,9 +1,17 @@
 .splide__slide img {
-    width: 80%;
+    width: 70%;
     height: auto;
+    border-radius: 25px;
   }
 
   .splide {
     margin-bottom: 8rem;
     margin-bottom: 2rem;
   }
+
+  .splide__arrow {
+  top: 30%;
+  background: #AF2C35;
+  }
+
+  

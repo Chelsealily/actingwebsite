@@ -9,8 +9,7 @@ const Youtube = () => {
 
   return (
     <div className="youtube-container">
-      <h1>Showreels</h1>
-      <div className="youtube-grid">
+
         {videos.map((video, index) => (
           <div key={index} className="youtube-item">
             <div className="video-wrapper">
@@ -24,7 +23,7 @@ const Youtube = () => {
           </div>
         ))}
       </div>
-    </div>
+
   );
 };
 

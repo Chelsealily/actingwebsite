@@ -1,8 +1,8 @@
-import './seemorepage.scss'
+import './techpage.scss'
 import ScrollToTop from 'react-scroll-to-top'
 import logoPort from '../assets/pint.svg'
 
-function Seemorepage() {
+function Techpage() {
     return (
     <>
       <br></br>
@@ -20,4 +20,4 @@ function Seemorepage() {
   )
 }
 
-export default Seemorepage
+export default Techpage
