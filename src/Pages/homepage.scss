@@ -7,9 +7,16 @@
   }
 }
 
+.insta__logo{
+  height: 70px;
+}
+
 .paypal {
     padding-bottom: 5rem;
     padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Tablet adjustments */
@@ -20,6 +27,9 @@
    .welcome__logo {
     height: 80px;
   }
+.insta__logo{
+  height: 70px;
+}
 }
 
 /* Mobile  */
@@ -32,6 +42,9 @@
  .welcome__logo {
     height: 60px;
   }
+  .insta__logo{
+  height: 50px;
+}
 
   .paypal {
     padding-bottom: 2rem;
