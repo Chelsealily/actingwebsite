@@ -15,7 +15,7 @@ function Actingpage() {
 
      <div className="acting-page">
   <img
-    className="acting-background"
+    className="acting-background" loading='eager'
     src={act}
     alt="Chelsea Li - London Based British East Asian Actress"
   />

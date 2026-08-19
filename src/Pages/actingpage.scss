@@ -96,6 +96,24 @@
   cursor: pointer;
 }
 
+/* L Laptop */
+@media (min-width: 1440px) and (max-width: 2500px) {
+  .credits-section {
+  font-size: 2rem;
+}
+
+.about-section img{
+  height: 450px;
+}
+.about-text {
+    font-size: 2rem;
+}
+
+.button {
+  font-size: 2rem;
+  padding: 32px 35px;
+}
+}
 
 /* Desktop */
 @media (min-width: 1025px) {
