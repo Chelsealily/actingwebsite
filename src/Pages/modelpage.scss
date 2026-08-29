@@ -1,5 +1,83 @@
-.text {
-  color: #000000;
-  font-size: 2rem;
-  text-align: center;
+.modelling-page {
+  position: relative;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  aspect-ratio: 607 / 2048;
+  font-weight: 600;
+}
+
+.home {
+  position: absolute; 
+  top: 0%;
+  left: 0%;
+}
+
+.modelling-background {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.modelling-content {
+  position: absolute;
+  inset: 0;
+}
+
+.pinboard-section{
+  position: absolute; 
+  top: 54%;
+  left: 0%;
+}
+
+.modelabout-container {
+  width: 52vw;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 10px;
+  font-size: 1.3rem;
+}
+
+
+/* L Laptop */
+@media (min-width: 1400px) and (max-width: 2500px) {
+.modelabout-container {
+  width: 53vw;
+  padding-top: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 1.9rem;
+}
+}
+
+/* Tablets */
+@media (max-width: 1023px) {
+.modelabout-container {
+  width: 50vw;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 70px;
+  font-size: 1rem;
+}
+}
+
+/* L Mobile */
+@media (max-width: 767px) {
+.modelabout-container {
+  width: 50vw;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 70px;
+  font-size: 0.5rem;
+}
+}
+
+/* Mobile */
+@media (max-width: 424px) {
+.modelabout-container {
+  width: 50vw;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 70px;
+  font-size: 0.4rem;
+}
 }

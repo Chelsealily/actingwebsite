@@ -64,10 +64,8 @@ function Actingpage() {
           </section>
 </div>
 </div>
-
   <Footer />
   <ScrollToTop smooth />
-
     </>
   )
 }
