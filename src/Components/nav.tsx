@@ -13,9 +13,8 @@ const Nav = () => {
         <Link className="nav__item-1" to="/modelling">
           Model
         </Link><br></br>
-        <Link className="nav__item" to="/ugc">
-          UGC 
-        </Link>
+        <a className="nav__item" href="https://chelseali-ugc.my.canva.site" target="_blank">
+          UGC </a>
         <br></br>
         
       </div>
