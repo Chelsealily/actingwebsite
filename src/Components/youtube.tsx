@@ -2,7 +2,7 @@ import "./youtube.scss";
 
 const Youtube = () => {
   const videos = [
-    { src: "https://youtube.com/embed/u0KgxC2Ma9w?si=PiG1cQQnmfUzVty0", title: "Showreel 1" },
+    { src: "https://www.youtube.com/embed/hrZuQ52vO48?si=Ae46pEksgf9qnij6", title: "Showreel 1" },
 
     // Add more videos if needed
   ];
